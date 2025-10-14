@@ -2,7 +2,7 @@ pipeline {
     //agent { label 'Node_16' }
       agent any
     environment {
-        IMAGE_NAME = "cal_mvn1"
+        IMAGE_NAME = "cal_maven"
         IMAGE_TAG = "latest"
     }
 
