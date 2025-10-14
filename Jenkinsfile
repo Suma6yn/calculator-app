@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from GitHub
-                git url: 'https://github.com/Suma6yn/calculator-app.git', branch: 'main'
+                git url: 'https://github.com/Suma6yn/calculator-app.git', branch: 'master'
             }
         }
         stage('Build Docker Image') {
