@@ -1,6 +1,6 @@
 pipeline {
-    agent { label 'Node_16' } // run on a node with Docker installed
-
+    //agent { label 'Node_16' }
+      agent any
     environment {
         IMAGE_NAME = "cal_mvn1"
         IMAGE_TAG = "latest"
