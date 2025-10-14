@@ -1,6 +1,6 @@
 pipeline {
-    //agent { label 'Node_16' }
-      agent any
+    agent { label 'Node_16' }
+
     environment {
         IMAGE_NAME = "cal_maven"
         IMAGE_TAG = "latest"
